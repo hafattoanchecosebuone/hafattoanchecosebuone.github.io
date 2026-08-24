@@ -1,0 +1,22 @@
+{{ define "main" }}
+<section class="apertura">
+  <div class="contenitore">
+    <p class="apertura__occhiello">Verifica storica · fonti in fondo a ogni scheda</p>
+    <h1 class="apertura__frase">Ha fatto anche <em>cose buone</em></h1>
+    <p class="apertura__nota">{{ .Site.Params.sottotitolo }} Nessuna polemica: solo la data in cui una legge è stata approvata, il numero di ettari davvero bonificati, il nome di chi c'era prima.</p>
+    <p class="apertura__conteggio">{{ len (where .Site.RegularPages "Section" "bufale") }} schede verificate</p>
+  </div>
+</section>
+
+{{ $bufale := where .Site.RegularPages "Section" "bufale" }}
+{{ range $bufale.GroupByParam "categoria" }}
+<section class="sezione">
+  <div class="contenitore">
+    <h2 class="sezione__titolo">{{ .Key }}</h2>
+    <ul class="elenco">
+      {{ range .Pages }}{{ partial "voce.html" . }}{{ end }}
+    </ul>
+  </div>
+</section>
+{{ end }}
+{{ end }}

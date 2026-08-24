@@ -1,0 +1,13 @@
+{{ define "main" }}
+<div class="contenitore">
+  <div class="intestazione-elenco">
+    <h1>{{ .Title }}</h1>
+    {{ with .Content }}{{ . }}{{ end }}
+  </div>
+  <section class="sezione">
+    <ul class="elenco">
+      {{ range .Pages }}{{ partial "voce.html" . }}{{ end }}
+    </ul>
+  </section>
+</div>
+{{ end }}

@@ -1,0 +1,17 @@
+{{ define "main" }}
+<article class="scheda">
+  <div class="contenitore">
+    <header class="scheda__intestazione">
+      <p class="scheda__etichetta">{{ with .Params.categoria }}{{ . }}{{ else }}Pagina{{ end }}</p>
+      <h1 class="scheda__mito">{{ with .Params.mito }}«{{ . }}»{{ else }}{{ $.Title }}{{ end }}</h1>
+      {{ with .Params.verdetto }}
+      <p><span class="timbro{{ if eq . "parzialmente vero" }} timbro--parziale{{ end }}">{{ . }}</span></p>
+      {{ end }}
+    </header>
+
+    <div class="scheda__corpo">
+      {{ .Content }}
+    </div>
+  </div>
+</article>
+{{ end }}

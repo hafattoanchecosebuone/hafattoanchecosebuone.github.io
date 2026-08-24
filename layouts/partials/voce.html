@@ -1,0 +1,9 @@
+<li class="voce">
+  <a class="voce__link" href="{{ .RelPermalink }}">
+    <span><span class="voce__mito">«{{ .Params.mito }}»</span></span>
+    <span>
+      <span class="voce__verdetto{{ if eq .Params.verdetto "parzialmente vero" }} voce__verdetto--parziale{{ end }}">{{ .Params.verdetto }}</span>
+      <span class="voce__fatto">{{ .Params.fatto }}</span>
+    </span>
+  </a>
+</li>

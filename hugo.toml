@@ -1,0 +1,20 @@
+baseURL = 'https://hafattoanchecosebuone.it/'
+locale = 'it-it'
+defaultContentLanguage = 'it'
+title = 'Ha fatto anche cose buone'
+enableRobotsTXT = true
+disableKinds = ['taxonomy', 'term', 'RSS']
+
+[params]
+  descrizione = "Le cose buone del fascismo, verificate una per una."
+  sottotitolo = "Verifichiamo, una per una, le cose buone che avrebbe fatto."
+
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.highlight]
+  noClasses = false
+
+[permalinks]
+  bufale = '/bufale/:slug/'

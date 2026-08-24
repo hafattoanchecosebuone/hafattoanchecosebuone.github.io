@@ -1,0 +1,413 @@
+/* ============================================================
+   Ha fatto anche cose buone — foglio di stile
+   Sistema visivo: la correzione. Ogni affermazione falsa
+   porta il segno rosso della penna; sotto, il fatto.
+   ============================================================ */
+
+:root {
+  --carta:            #e6e5df;
+  --carta-scura:      #d6d5cd;
+  --carta-alta:       #f0efea;
+  --inchiostro:       #1e2024;
+  --inchiostro-lieve: #6e7076;
+  --rosso:            #b3221e;
+  --blu-archivio:     #2c4770;
+
+  --sp-1: 0.5rem;
+  --sp-2: 1rem;
+  --sp-3: 1.75rem;
+  --sp-4: 3rem;
+  --sp-5: 5.5rem;
+
+  --misura: 34rem;
+  --bordo: 1px solid var(--carta-scura);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--carta);
+  color: var(--inchiostro);
+  font-family: "Archivo", system-ui, -apple-system, sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  font-feature-settings: "kern" 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: inherit; }
+
+:focus-visible {
+  outline: 2px solid var(--rosso);
+  outline-offset: 3px;
+}
+
+.contenitore {
+  width: min(100% - 2.5rem, 62rem);
+  margin-inline: auto;
+}
+
+.salta-al-contenuto {
+  position: absolute;
+  left: -9999px;
+  background: var(--inchiostro);
+  color: var(--carta-alta);
+  padding: var(--sp-1) var(--sp-2);
+}
+.salta-al-contenuto:focus {
+  left: var(--sp-2);
+  top: var(--sp-2);
+  z-index: 10;
+}
+
+/* ---------- Testata ---------- */
+
+.testata {
+  border-bottom: var(--bordo);
+  padding-block: var(--sp-2);
+}
+
+.testata__interno {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.testata__marchio {
+  font-family: "Bodoni Moda", Georgia, serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+}
+
+.testata__nav {
+  display: flex;
+  gap: var(--sp-3);
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.testata__nav a {
+  text-decoration: none;
+  color: var(--inchiostro-lieve);
+  padding-bottom: 2px;
+  border-bottom: 1px solid transparent;
+}
+.testata__nav a:hover { color: var(--inchiostro); border-bottom-color: var(--rosso); }
+
+/* ---------- Apertura: la tesi ---------- */
+
+.apertura {
+  padding-block: clamp(var(--sp-4), 11vw, var(--sp-5)) var(--sp-4);
+  border-bottom: var(--bordo);
+}
+
+.apertura__occhiello {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--inchiostro-lieve);
+  margin: 0 0 var(--sp-3);
+}
+
+.apertura__frase {
+  font-family: "Bodoni Moda", Georgia, serif;
+  font-weight: 500;
+  font-size: clamp(2.6rem, 9vw, 6rem);
+  line-height: 1.02;
+  letter-spacing: -0.02em;
+  margin: 0;
+  max-width: 14ch;
+}
+
+.apertura__frase em {
+  font-style: italic;
+  position: relative;
+  display: inline-block;
+}
+
+/* Il segno rosso: la firma della pagina. */
+.apertura__frase em::after {
+  content: "";
+  position: absolute;
+  left: -0.06em;
+  right: -0.06em;
+  top: 56%;
+  height: 0.055em;
+  min-height: 3px;
+  background: var(--rosso);
+  transform-origin: left center;
+  transform: scaleX(0) rotate(-1.1deg);
+  animation: traccia 900ms cubic-bezier(0.7, 0, 0.25, 1) 500ms forwards;
+}
+
+@keyframes traccia {
+  to { transform: scaleX(1) rotate(-1.1deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .apertura__frase em::after {
+    animation: none;
+    transform: scaleX(1) rotate(-1.1deg);
+  }
+}
+
+.apertura__nota {
+  margin: var(--sp-3) 0 0;
+  max-width: var(--misura);
+  font-size: 1.125rem;
+  color: var(--inchiostro);
+}
+
+.apertura__conteggio {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  color: var(--inchiostro-lieve);
+  margin-top: var(--sp-2);
+}
+
+/* ---------- Elenco delle bufale ---------- */
+
+.sezione { padding-block: var(--sp-4); }
+
+.sezione__titolo {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--inchiostro-lieve);
+  font-weight: 500;
+  margin: 0 0 var(--sp-2);
+  padding-bottom: var(--sp-1);
+  border-bottom: 1px solid var(--inchiostro);
+}
+
+.elenco {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.voce { border-bottom: var(--bordo); }
+
+.voce__link {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--sp-1);
+  padding-block: var(--sp-3);
+  text-decoration: none;
+}
+
+@media (min-width: 46rem) {
+  .voce__link {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--sp-4);
+    align-items: start;
+  }
+}
+
+.voce__mito {
+  font-family: "Bodoni Moda", Georgia, serif;
+  font-style: italic;
+  font-size: 1.5rem;
+  line-height: 1.25;
+  margin: 0;
+  position: relative;
+  display: inline;
+  background-image: linear-gradient(var(--rosso), var(--rosso));
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  background-position: 0 62%;
+  transition: background-size 420ms cubic-bezier(0.7, 0, 0.25, 1);
+}
+
+.voce__link:hover .voce__mito,
+.voce__link:focus-visible .voce__mito { background-size: 100% 2px; }
+
+@media (prefers-reduced-motion: reduce) {
+  .voce__mito { transition: none; }
+}
+
+.voce__fatto {
+  margin: 0;
+  color: var(--inchiostro);
+}
+
+.voce__verdetto {
+  display: inline-block;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.6875rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--rosso);
+  border: 1px solid currentColor;
+  padding: 2px 7px;
+  margin-bottom: var(--sp-1);
+}
+
+.voce__verdetto--parziale { color: var(--blu-archivio); }
+
+/* ---------- Pagina singola ---------- */
+
+.scheda { padding-block: var(--sp-4) var(--sp-5); }
+
+.scheda__intestazione {
+  border-bottom: 1px solid var(--inchiostro);
+  padding-bottom: var(--sp-3);
+  margin-bottom: var(--sp-3);
+  position: relative;
+}
+
+.scheda__etichetta {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--inchiostro-lieve);
+  margin: 0 0 var(--sp-2);
+}
+
+.scheda__mito {
+  font-family: "Bodoni Moda", Georgia, serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: clamp(1.9rem, 5.5vw, 3.25rem);
+  line-height: 1.12;
+  letter-spacing: -0.015em;
+  margin: 0;
+  max-width: 20ch;
+  text-decoration: line-through;
+  text-decoration-color: var(--rosso);
+  text-decoration-thickness: 3px;
+  text-underline-offset: 0;
+}
+
+/* Timbro: riporta il verdetto, non decora. */
+.timbro {
+  display: inline-block;
+  margin-top: var(--sp-3);
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--rosso);
+  border: 2px solid currentColor;
+  padding: 0.4rem 0.9rem;
+  transform: rotate(-2.5deg);
+}
+
+.timbro--parziale { color: var(--blu-archivio); }
+
+.scheda__corpo {
+  max-width: var(--misura);
+  font-size: 1.125rem;
+}
+
+.scheda__corpo h2 {
+  font-family: "Archivo", system-ui, sans-serif;
+  font-size: 0.8125rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--inchiostro-lieve);
+  font-weight: 600;
+  margin-top: var(--sp-4);
+  margin-bottom: var(--sp-1);
+}
+
+.scheda__corpo p { margin-block: 0 var(--sp-2); }
+
+.scheda__corpo strong { font-weight: 600; }
+
+.scheda__corpo blockquote {
+  margin: var(--sp-3) 0;
+  padding-left: var(--sp-2);
+  border-left: 3px solid var(--carta-scura);
+  font-family: "Bodoni Moda", Georgia, serif;
+  font-style: italic;
+  color: var(--inchiostro-lieve);
+}
+
+/* ---------- Note (citazioni puntuali, in corpo) ---------- */
+
+.footnote-ref a {
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.7em;
+  color: var(--rosso);
+  text-decoration: none;
+}
+
+/* Il titolo "Fonti" è un h2 scritto nel corpo della scheda:
+   qui si stila solo l'elenco che Goldmark genera dai footnote. */
+.footnotes {
+  max-width: var(--misura);
+}
+
+.footnotes hr { display: none; }
+
+.footnotes ol {
+  margin: 0;
+  padding-left: 1.3em;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 0.8125rem;
+  line-height: 1.6;
+}
+
+.footnotes li { padding-block: 0.35rem; }
+
+.footnotes a { color: var(--blu-archivio); }
+
+.footnote-backref {
+  margin-left: 0.4em;
+  color: var(--inchiostro-lieve);
+  text-decoration: none;
+}
+
+/* ---------- Piè di pagina ---------- */
+
+.pie {
+  border-top: var(--bordo);
+  padding-block: var(--sp-3);
+  font-size: 0.875rem;
+  color: var(--inchiostro-lieve);
+}
+
+.pie__interno {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sp-2);
+  justify-content: space-between;
+}
+
+.pie a { color: var(--blu-archivio); }
+
+/* ---------- Pagina di elenco categoria ---------- */
+
+.intestazione-elenco {
+  padding-block: var(--sp-4) var(--sp-2);
+  border-bottom: 1px solid var(--inchiostro);
+}
+
+.intestazione-elenco h1 {
+  font-family: "Bodoni Moda", Georgia, serif;
+  font-weight: 500;
+  font-size: clamp(2rem, 6vw, 3.5rem);
+  line-height: 1.05;
+  margin: 0;
+}
+
+.intestazione-elenco p {
+  max-width: var(--misura);
+  margin: var(--sp-2) 0 0;
+  color: var(--inchiostro-lieve);
+}

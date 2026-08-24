@@ -1,0 +1,18 @@
+<footer class="pie">
+  <div class="contenitore pie__interno">
+    {{/* La mail sotto è offuscata anti-scraping: nel sorgente compaiono solo
+         l'alfabeto ordinato dei caratteri usati e gli indici per ricostruirli,
+         mai l'indirizzo in chiaro. sorted/offsets vanno ricalcolati se cambia
+         l'indirizzo (es. con un piccolo script Python: sorted(set(s)), poi
+         l'indice di ogni carattere di s in quella stringa ordinata). */}}
+    <p>Errori o correzioni? <a href="https://github.com/hafattoanchecosebuone/hafattoanchecosebuone.github.io/blob/main/CONTRIBUTING.md">Apri una issue</a> o <a class="link-offuscato" data-s=".:@abcefhilmnostu" data-o="11,3,9,10,15,13,1,9,12,7,13,2,8,3,7,3,15,15,13,3,12,5,8,6,5,13,14,6,4,16,13,12,6,0,9,15">scrivici</a>.</p>
+    <p>Contenuti in CC BY-SA 4.0 · <a href="https://github.com/hafattoanchecosebuone/hafattoanchecosebuone.github.io">Sorgente su GitHub</a></p>
+  </div>
+  <script>
+    document.querySelectorAll('.link-offuscato').forEach(function (el) {
+      var s = el.dataset.s, o = el.dataset.o.split(',').map(Number);
+      var indirizzo = o.map(function (i) { return s[i]; }).join('');
+      el.href = indirizzo;
+    });
+  </script>
+</footer>
