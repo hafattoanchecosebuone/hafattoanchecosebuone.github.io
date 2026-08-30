@@ -16,7 +16,7 @@ La legge 25 novembre 1926 n. 2008 istituì poi il Tribunale speciale per la dife
 
 ## In Libia
 
-Tra il 1929 e il 1931, per separare la resistenza cirenaica dalla popolazione civile, l'esercito italiano deportò circa **centomila abitanti** dell'altopiano del Gebel nei campi di concentramento della Sirtica. Lo storico Giorgio Rochat stima che, quando i campi furono sciolti nel 1933, i morti per fame, malattia e stenti fossero circa cinquantamila: la metà dei deportati[^reteparri]. A guidare la repressione fu il generale Rodolfo Graziani, che tra i suoi stessi colleghi si guadagnò il soprannome di «macellaio del Fezzan» — dopo un bombardamento aereo, nel febbraio 1930, contro circa 2.800 profughi in fuga con le loro famiglie — e di «macellaio degli arabi»[^anpigraziani].
+Tra il 1929 e il 1931, per separare la resistenza cirenaica dalla popolazione civile, l'esercito italiano deportò circa **centomila abitanti** dell'altopiano del Gebel nei campi di concentramento della Sirtica[^campifascisti]. Lo storico Giorgio Rochat stima che, quando i campi furono sciolti nel 1933, i morti per fame, malattia e stenti fossero circa cinquantamila: la metà dei deportati[^reteparri]. A guidare la repressione fu il generale Rodolfo Graziani, che tra i suoi stessi colleghi si guadagnò il soprannome di «macellaio del Fezzan» — dopo un bombardamento aereo, nel febbraio 1930, contro circa 2.800 profughi in fuga con le loro famiglie — e di «macellaio degli arabi»[^anpigraziani].
 
 ## In Etiopia
 
@@ -39,6 +39,7 @@ Che le cifre non raggiungano quelle della Germania nazista è vero. Non è un'as
 [^legge2008]: Normattiva — [Legge 25 novembre 1926, n. 2008, «Provvedimenti per la difesa dello Stato»](https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Alegge%3A1926-11-25=&2008=)
 [^anpitribunale]: ANPI, Promemoria — [Il Tribunale speciale per la difesa dello Stato (1927-1943)](https://promemoria.anpi.it/2656-2/)
 [^reteparri]: Italia Contemporanea (Rete Parri) — [Deportazione e campi di concentramento in Cirenaica e in Jugoslavia](https://www.reteparri.it/wp-content/uploads/ic/IC_252-253_2008_11_r.pdf)
+[^campifascisti]: Topografia per la storia — [Mappe dei campi di concentramento e internamento fascisti](https://www.campifascisti.it/mappe.php)
 [^anpigraziani]: ANPI Roma — [Rodolfo Graziani, soldato o criminale di guerra?](https://www.anpiroma.org/2013/07/rodolfo-graziani-soldato-o-criminale-di.html)
 [^ilpost]: Il Post — [Perché Angelo Del Boca è stato importante](https://www.ilpost.it/2021/07/07/angelo-del-boca/)
 [^domani]: Domani — [Yekatit 12 è la data del massacro in Etiopia che l'Italia ha rimosso](https://www.editorialedomani.it/politica/italia/massacro-etiopia-litalia-ha-rimosso-19-febbraio-tcbdpvaa)
