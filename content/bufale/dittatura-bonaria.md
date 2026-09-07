@@ -32,6 +32,8 @@ Durante l'occupazione italiana della Jugoslavia (1941-43), la circolare 3C del g
 
 Che le cifre non raggiungano quelle della Germania nazista è vero. Non è un'assoluzione: è un ordine di grandezza.
 
+Di quei crimini restano ancora tracce nell'Italia di oggi, in vie, targhe e monumenti dedicati a chi li guidò[^vivazerai].
+
 ## Fonti
 
 [^cgil]: CGIL — [La violenza fascista (1921-1926)](https://www.cgil.it/la-cgil/la-nostra-storia/la-violenza-fascista-1921-1926-ug9rjiwe)
@@ -45,4 +47,5 @@ Che le cifre non raggiungano quelle della Germania nazista è vero. Non è un'as
 [^domani]: Domani — [Yekatit 12 è la data del massacro in Etiopia che l'Italia ha rimosso](https://www.editorialedomani.it/politica/italia/massacro-etiopia-litalia-ha-rimosso-19-febbraio-tcbdpvaa)
 [^anpidebra]: ANPI Roma — [21-29 maggio 1937: il massacro di Debra Libanòs, il più grande crimine di guerra dell'Italia](https://www.anpiroma.org/2021/05/21-29-maggio-1937-il-massacro-di-debra.html)
 [^memoriale]: Memoriale delle Deportazioni — [Stralci della circolare 3C](https://memorialedelledeportazioni.it/museo/stralci-della-circolare-3c/)
+[^vivazerai]: Wu Ming Foundation — per approfondire, [Viva Zerai! Una mappa della topografia colonialista italiana](https://umap.openstreetmap.fr/it/map/viva-zerai_519378)
 [^anpibravagente]: ANPI, Patria Indipendente — [Ecco perché non siamo stati affatto «brava gente»](https://www.patriaindipendente.it/interviste/ecco-perche-non-siamo-stati-affatto-brava-gente/)
