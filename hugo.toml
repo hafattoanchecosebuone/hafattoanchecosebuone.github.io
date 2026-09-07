@@ -8,6 +8,7 @@ disableKinds = ['taxonomy', 'term', 'RSS']
 [params]
   descrizione = "Le cose buone del fascismo, verificate una per una."
   sottotitolo = "Verifichiamo, una per una, le cose buone che avrebbe fatto."
+  inEvidenza = ["pensioni", "tredicesima", "bonifiche"]
 
 
 [markup.goldmark.renderer]

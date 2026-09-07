@@ -9,14 +9,15 @@
 </section>
 
 {{ $bufale := where .Site.RegularPages "Section" "bufale" }}
-{{ range $bufale.GroupByParam "categoria" }}
 <section class="sezione">
   <div class="contenitore">
-    <h2 class="sezione__titolo">{{ .Key }}</h2>
+    <h2 class="sezione__titolo">Le più diffuse</h2>
     <ul class="elenco">
-      {{ range .Pages }}{{ partial "voce.html" . }}{{ end }}
+      {{ range .Site.Params.inEvidenza }}
+        {{ with where $bufale "Params.slug" . }}{{ partial "voce.html" (index . 0) }}{{ end }}
+      {{ end }}
     </ul>
+    <p class="apertura__conteggio"><a href="{{ "/bufale/" | relURL }}">Tutte le schede →</a></p>
   </div>
 </section>
-{{ end }}
 {{ end }}
