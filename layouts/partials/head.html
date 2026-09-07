@@ -3,6 +3,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ if .IsHome }}{{ .Site.Title }} — {{ .Site.Params.descrizione }}{{ else }}{{ .Title }} — {{ .Site.Title }}{{ end }}</title>
   <meta name="description" content="{{ with .Params.fatto }}{{ . }}{{ else }}{{ .Site.Params.descrizione }}{{ end }}">
+  <link rel="canonical" href="{{ .Permalink }}">
   <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
   <meta property="og:description" content="{{ with .Params.fatto }}{{ . }}{{ else }}{{ .Site.Params.descrizione }}{{ end }}">
   <meta property="og:type" content="website">
