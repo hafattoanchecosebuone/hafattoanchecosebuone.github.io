@@ -1,5 +1,6 @@
 ---
 title: "Metodo"
+descrizione: "Come verifichiamo ogni scheda: gerarchia delle fonti, verdetti calibrati, nessuna cifra senza riscontro."
 ---
 
 ## Cosa facciamo

@@ -2,7 +2,7 @@
 <article class="scheda">
   <div class="contenitore">
     <header class="scheda__intestazione">
-      <p class="scheda__etichetta">{{ with .Params.categoria }}{{ . }}{{ else }}Pagina{{ end }}</p>
+      {{ with .Params.categoria }}<p class="scheda__etichetta">{{ . }}</p>{{ end }}
       <h1 class="scheda__mito">{{ with .Params.mito }}«{{ . }}»{{ else }}{{ $.Title }}{{ end }}</h1>
       {{ with .Params.verdetto }}
       <p><span class="timbro{{ if eq . "parzialmente vero" }} timbro--parziale{{ end }}">{{ . }}</span></p>

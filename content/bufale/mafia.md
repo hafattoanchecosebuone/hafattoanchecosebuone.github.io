@@ -10,7 +10,7 @@ date: 2026-01-01
 
 ## Le date
 
-Nel 1925 Mussolini invia in Sicilia il prefetto Cesare Mori, con poteri straordinari estesi a tutta l'isola[^treccani]. Tra il 1925 e il 1929 la sua campagna di polizia produce circa 11.000 arresti nelle province di Palermo, Agrigento e Caltanissetta[^biografie].
+Nel 1925 Mussolini invia in Sicilia il prefetto Cesare Mori, con poteri straordinari estesi a tutta l'isola[^treccani]. Tra il 1925 e il 1929 la sua campagna di polizia produce, secondo i dati diffusi dalla propaganda del regime, circa 11.000 arresti nelle province di Palermo, Agrigento e Caltanissetta[^storica].
 
 ## Cosa fece davvero il regime
 
@@ -23,5 +23,5 @@ La propaganda dichiarò la mafia sconfitta. Non lo fu: sopravvisse adattandosi, 
 ## Fonti
 
 [^treccani]: Treccani, Dizionario Biografico — [Cesare Mori](https://www.treccani.it/enciclopedia/cesare-mori_(Dizionario-Biografico)/)
-[^biografie]: Biografie Online — [Cesare Mori, la storia del prefetto di ferro](https://biografieonline.it/biografia-cesare-mori)
+[^storica]: Antonio Nicaso, Matteo Dalena — Storica, National Geographic — [Mafie in camicia nera](https://www.storicang.it/a/mafie-in-camicia-nera_16126)
 [^duggan]: Christopher Duggan, [«Fascism and the Mafia»](https://archive.org/details/fascismmafia0000dugg), Yale University Press, 1989
