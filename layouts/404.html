@@ -1,0 +1,13 @@
+{{ define "main" }}
+<div class="contenitore">
+  <div class="intestazione-elenco">
+    <h1>Pagina non trovata</h1>
+    <p>L'indirizzo non corrisponde a nessuna scheda. Forse è stata rinominata: l'elenco completo è qui sotto.</p>
+  </div>
+  <section class="sezione">
+    <ul class="elenco">
+      {{ range where .Site.RegularPages "Section" "bufale" }}{{ partial "voce.html" . }}{{ end }}
+    </ul>
+  </section>
+</div>
+{{ end }}

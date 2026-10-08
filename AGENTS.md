@@ -15,7 +15,8 @@ Dominio previsto: hafattoanchecosebuone.it
 - `content/bufale/*.md` — una scheda per mito
 - `content/metodo.md` — spiegazione del metodo e dei verdetti
 - `layouts/` — template, nessun tema esterno
-- `static/css/style.css` — unico foglio di stile, token CSS in `:root`
+- `static/css/style.css` — unico foglio di stile, token CSS in `:root`; contiene anche le `@font-face`
+- `static/fonts/` — font ospitati in locale (niente Google Fonts: privacy e prestazioni)
 - `archetypes/bufale.md` — scheletro per `hugo new`
 
 ## Front matter di una scheda
@@ -47,12 +48,19 @@ In fondo alla scheda, sotto un `## Fonti`:
 
 Hugo/Goldmark genera da solo numerazione, link e freccia di ritorno: non serve altro markup. Una fonte senza url resta comunque una nota valida (citazione bibliografica senza link).
 
+- Si cita solo ciò che si è letto. Se un dato viene da un autore che lo riprende da altri (es. Filippi che cita Novello), la nota indica anche la fonte originale e la pagina.
+- Per i libri, indicare pagina o capitolo.
+- Link a Normattiva solo nella forma non codificata: `https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto.legge:1933-03-27;371`. La forma `urn%3A...=` apre una pagina di errore pur rispondendo 200. Usare il tipo d'atto giusto (`legge`, `regio.decreto`, `regio.decreto.legge`, `decreto.legislativo.luogotenenziale`…).
+
 ## Sistema visivo
 
 L'idea è **la correzione**: la frase falsa porta il segno rosso della penna, sotto c'è il fatto.
 - Display: Bodoni Moda (corsivo per i miti). Testo: Archivo. Riferimenti e etichette: IBM Plex Mono.
-- Rosso `--rosso` solo per il segno di correzione e i verdetti falsi. Blu `--blu-archivio` per link e verdetto parziale.
-- Una sola animazione in tutto il sito: il tratto rosso in apertura. Rispetta `prefers-reduced-motion`. Non aggiungerne altre.
+- Rosso `--rosso` solo per il segno di correzione e i verdetti falsi. Blu `--blu-archivio` per link, note, focus e verdetto parziale. I verdetti `propaganda` e `omissione` usano `--inchiostro` (modificatori `voce__verdetto--neutro` e `timbro--neutro`).
+- Contrasto minimo WCAG AA (4,5:1) per il testo: `--inchiostro-lieve` è tarato su questo.
+- Una sola animazione in tutto il sito: il tratto rosso in apertura. Rispetta `prefers-reduced-motion`. Non aggiungerne altre, nemmeno transizioni al passaggio del mouse.
+
+La data «Ultima revisione» di ogni scheda viene da git (`enableGitInfo`): per questo il workflow fa il checkout con `fetch-depth: 0`.
 
 ## Comandi
 

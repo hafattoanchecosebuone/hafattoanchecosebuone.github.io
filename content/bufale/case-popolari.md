@@ -2,7 +2,7 @@
 title: "Le case popolari"
 slug: "case-popolari"
 mito: "Le case popolari le ha costruite il fascismo"
-fatto: "La legge sull'edilizia popolare è del 1903, firmata da un deputato liberale."
+fatto: "La legge è del 1903 e i primi istituti nascono prima del 1922. Il regime ne costruì, ma poche: 13.700 alloggi tra il 1935 e il 1939."
 categoria: "Opere pubbliche"
 verdetto: "falso"
 date: 2026-01-01
@@ -10,20 +10,25 @@ date: 2026-01-01
 
 ## La data
 
-La prima legge sull'edilizia popolare è del **1903**, su proposta di Luigi Luzzatti, deputato liberale poi presidente del Consiglio[^focusjr]. I grandi progetti di edilizia urbana nelle città con più fame di case — la Garbatella a Roma, e i quartieri corrispondenti a Torino, Napoli, Milano — nascono tutti nei primi quindici-vent'anni del Novecento.
+La prima legge sulle case popolari è del **1903**, voluta da Luigi Luzzatti, deputato della Destra storica e poi presidente del Consiglio[^legge254][^focusjr]. Sulla sua base nascono gli istituti per le case popolari delle grandi città: Torino nel 1907, Napoli e Milano l'anno dopo; a Roma quartieri come la Garbatella sorgono nei primi decenni del Novecento[^filippi].
 
-Il fascismo nasce nel 1919 e va al governo nel 1922.
+Il fascismo va al governo nel 1922.
 
 ## L'intervento del regime
 
-Nel 1935 il fascismo porta la gestione del sistema a livello provinciale: mette sotto il proprio controllo e ribattezza strutture amministrative nate nell'Italia liberale, come farà in altri campi[^ifq]. Non è un intervento di sostanza: a Pavia, per fare un caso documentato, l'INCIS costruì appena 67 dei 500 alloggi che l'amministrazione stessa riteneva necessari[^pavia].
+Il regime non smantella l'edilizia popolare, anzi la incentiva[^focusjr]; ma non la inventa. La legge del 1935 provincializza gli istituti e crea un consorzio nazionale, con presidenti nominati per decreto reale[^legge1129][^filippi].
+
+I risultati sono modesti. Tra il 1935 e il 1939 il consorzio completa 13.700 alloggi, in gran parte avviati prima della sua nascita, per circa 75.000 persone. Nel 1940 il ministero delle Corporazioni stimava un fabbisogno di almeno seicentomila vani l'anno[^filippi].
 
 ## Il conto finale
 
-Nonostante progetti monumentali come l'EUR, la situazione abitativa restò emergenziale per tutto il ventennio. Poi arrivò la guerra voluta da Mussolini, che portò la distruzione nelle case di chi un tetto ce l'aveva: milioni di vani distrutti o danneggiati dai bombardamenti, un problema che il regime lascia in eredità, non che risolve[^ifq].
+Negli stessi anni i fondi per l'edilizia vanno anche a opere di immagine, come gli sventramenti nel centro di Roma e il quartiere dell'esposizione universale del 1942, l'EUR, completato solo negli anni Cinquanta[^filippi]. Poi arriva la guerra: alla fine del conflitto si contano due milioni di vani distrutti e un altro milione gravemente danneggiato[^filippi].
+
+Il grande piano pubblico per le case dei lavoratori, l'INA-Casa, parte con la legge 43 del 1949[^filippi].
 
 ## Fonti
 
+[^legge254]: Normattiva — [Legge 31 maggio 1903, n. 254](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1903-05-31;254)
 [^focusjr]: Focus Junior — [Fascismo, i luoghi comuni sulle «cose buone» smontati da uno storico](https://www.focusjunior.it/scuola/storia/verita-storiche-ecco-le-bufale-sulle-cose-buone-del-fascismo/)
-[^ifq]: Il Fatto Quotidiano — [25 aprile, le bufale del fascismo: pensioni, bonifiche, case, stipendi. Le cose buone che Mussolini non ha mai fatto](https://www.ilfattoquotidiano.it/2019/04/25/25-aprile-le-bufale-del-fascismo-pensioni-bonifiche-case-stipendi-le-cose-buone-che-mussolini-non-ha-mai-fatto/5122512/)
-[^pavia]: Musei Civici e Archivio Storico Civico di Pavia, «Pavia. Materiali di storia urbana: il progetto edilizio 1840-1940», Edizioni Mediche Italiane, 1988
+[^legge1129]: Normattiva — [Legge 6 giugno 1935, n. 1129](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1935-06-06;1129)
+[^filippi]: Francesco Filippi — [*Mussolini ha fatto anche cose buone*](https://www.bollatiboringhieri.it/libri/francesco-filippi-mussolini-ha-fatto-anche-cose-buone-9788833932743/), Bollati Boringhieri, 2019, cap. «Il duce costruttore». I dati su alloggi, fabbisogno e danni di guerra vengono da P. di Biagi (a cura di), *La grande ricostruzione. Il piano Ina-Casa e l'Italia degli anni cinquanta*, Donzelli, 2001, pp. 18 e 40

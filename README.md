@@ -20,11 +20,11 @@ hugo new bufale/nome-scheda.md
 
 Build: `hugo --minify` — output in `public/`
 
-Su Cloudflare Pages o GitHub Pages: build command `hugo --minify`, output directory `public`.
+Pubblicato su GitHub Pages tramite `.github/workflows/hugo.yaml` a ogni push su `main`.
 
 ## Contribuire
 
-Vedi [CONTRIBUTING.md](CONTRIBUTING.md). Le regole editoriali complete sono in [CLAUDE.md](CLAUDE.md).
+Vedi [CONTRIBUTING.md](CONTRIBUTING.md). Le regole editoriali complete sono in [AGENTS.md](AGENTS.md).
 
 ## Licenza
 

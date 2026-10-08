@@ -3,6 +3,7 @@ locale = 'it-it'
 defaultContentLanguage = 'it'
 title = 'Ha fatto anche cose buone'
 enableRobotsTXT = true
+enableGitInfo = true
 disableKinds = ['taxonomy', 'term', 'RSS']
 
 [params]

@@ -2,26 +2,31 @@
 title: "Le autostrade"
 slug: "autostrade"
 mito: "Le autostrade le ha fatte Mussolini"
-fatto: "Il progetto è di un ingegnere privato, approvato dal governo Giolitti nel 1921-22. Il fascismo intanto devastava le cooperative di lavoratori."
+fatto: "L'idea e i primi capitali sono di un ingegnere privato. Ma la concessione del 1922 e la rete di 450 chilometri arrivano sotto il governo Mussolini."
 categoria: "Opere pubbliche"
-verdetto: "falso"
+verdetto: "parzialmente vero"
 date: 2026-01-01
 ---
 
 ## Le date
 
-L'idea è di Piero Puricelli, ingegnere milanese che nel 1921 fonda la Società Anonima Autostrade e concepisce una strada riservata alle automobili, finanziata con un pedaggio[^treccani]. Il progetto per l'Autostrada dei Laghi, Milano-Varese, è approvato nel marzo 1922; la concessione statale arriva dai governi Giolitti e Bonomi tra il 1920 e il 1921[^mauto]. Mussolini prende il potere nell'ottobre 1922, sette mesi dopo.
+L'idea è di Piero Puricelli, ingegnere milanese, che concepisce una strada riservata alle automobili e pagata con il pedaggio. Nel gennaio 1922 presenta il progetto dell'Autostrada dei Laghi all'Automobile Club di Milano; l'11 marzo un comitato promosso dal Touring Club lo approva[^mauto][^treccani].
+
+Il passo decisivo arriva dopo la marcia su Roma. A metà novembre 1922 Puricelli incontra Mussolini, che gli assicura l'appoggio del governo. Il 18 novembre nasce la Società Anonima Autostrade; il 1° dicembre firma con i ministri del Tesoro e dei Lavori pubblici la convenzione che dichiara l'opera di pubblica utilità e concede il diritto di esproprio[^mauto][^treccani].
 
 ## Cosa fece davvero il regime
 
-I lavori cominciano nel 1923 e il primo tratto entra in funzione nel 1924[^mauto]: l'opera viene completata sotto il governo Mussolini, ma non nasce né viene concepita da lui. È un'iniziativa privata, a pedaggio, gestita da una società indipendente per quasi un decennio: lo Stato ne avvia il riscatto solo dal 1933, spinto dalla crisi economica che aveva messo in difficoltà i concessionari[^mauto].
+Qui un nucleo reale c'è, ed è per questo che il verdetto non è «falso». Mussolini dà il primo colpo di piccone il 26 marzo 1923; il primo tratto, Milano-Varese, apre il 21 settembre 1924[^mauto]. Seguono la Milano-Bergamo, la Napoli-Pompei, la Firenze-mare, la Torino-Milano: circa 450 chilometri tra il 1924 e il 1932, la prima rete autostradale del mondo[^mauto].
+
+Lo Stato contribuisce in misura crescente. Per la Milano-Laghi garantisce una sovvenzione legata a circa un terzo del costo dell'opera; per le autostrade successive i contributi pubblici aumentano, finché nel 1932 la legge 737 affida direttamente allo Stato la costruzione della Genova-Serravalle e la Milano-Laghi viene riscattata[^mauto].
 
 ## Il contesto che manca
 
-Negli stessi anni, tra il 1921 e il 1922, le squadre fasciste devastarono sistematicamente le organizzazioni che nel primo dopoguerra avevano realizzato buona parte delle opere pubbliche italiane: solo nella prima metà del 1921, nella pianura padana, furono distrutte almeno 107 cooperative di lavoratori e 119 Camere del Lavoro[^cgil]. Le stesse strutture che il fascismo, una volta al potere, si affrettò a smantellare per legge.
+Il progetto nasce come impresa privata e il merito tecnico è di Puricelli, non del governo. Il traffico, poi, resta modesto: nel 1925 sulla Milano-Laghi passavano circa 800 auto al giorno, meno delle mille previste[^mauto].
+
+Quando la società di Puricelli scivola verso il fallimento, anche per la gestione del suo fondatore, Mussolini chiede all'IRI di salvarla: l'istituto pubblico ne assume il controllo nel febbraio 1936[^treccani].
 
 ## Fonti
 
+[^mauto]: MAUTO, Museo nazionale dell'automobile — [Le autostrade dell'ingegnere Piero Puricelli](https://www.museoauto.com/qrcode/le-autostrade-dellingegnere-piero-puricelli/)
 [^treccani]: Treccani, Dizionario Biografico — [Piero Puricelli](https://www.treccani.it/enciclopedia/piero-puricelli_(Dizionario-Biografico)/)
-[^mauto]: MAUTO — [Le autostrade dell'ingegnere Piero Puricelli](https://www.museoauto.com/qrcode/le-autostrade-dellingegnere-piero-puricelli/)
-[^cgil]: CGIL — [La violenza fascista (1921-1926)](https://www.cgil.it/la-cgil/la-nostra-storia/la-violenza-fascista-1921-1926-ug9rjiwe)

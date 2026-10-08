@@ -2,32 +2,42 @@
 title: "L'onestà dei gerarchi"
 slug: "onesta-del-regime"
 mito: "Almeno allora non rubavano"
-fatto: "La corruzione era diffusa a ogni livello. Non se ne poteva scrivere."
+fatto: "La corruzione era diffusa, dai ministri ai ras locali. Non se ne poteva scrivere, e dopo il 1945 quasi nessuno restituì nulla."
 categoria: "Propaganda e informazione"
-verdetto: "omissione"
+verdetto: "falso"
 date: 2026-01-01
 ---
 
 ## Cosa emerse dopo
 
-Buona parte dei gerarchi, nazionali e locali, abusava della propria posizione; la corruzione era largamente diffusa. Alla caduta del regime, nell'agosto 1943, il governo Badoglio istituì una commissione per indagare sugli arricchimenti illeciti dell'era fascista: furono inquisiti oltre 5.000 tra gerarchi, alti funzionari e prefetti[^anpi]. Le inchieste, con il cambio di clima politico del dopoguerra, finirono derubricate a reati fiscali e chiuse con concordati minimi. Prima, la corruzione non poteva emergere affatto: la stampa era controllata e i reati dei fedeli al partito non erano notizia[^geopop].
+Buona parte dei gerarchi, nazionali e locali, abusava della propria posizione; la corruzione era molto diffusa, come accertarono le inchieste condotte dopo la caduta del regime[^geopop]. Lo storico Marco Palla, curatore con Paolo Giovannini di un volume dedicato al tema, la descrive come un tratto strutturale: affari, interessi privati negli atti d'ufficio, beni pubblici trattati come privati, nepotismo. Lo storico Didier Musiedlak ha documentato un milione di lire versato a Mussolini dal Senato del Regno nel 1938[^palla].
 
-## Il caso che chiude il discorso
+Un esempio al vertice. Costanzo Ciano, ministro delle Comunicazioni per un decennio, favorì le aziende di famiglia, guidate dai fratelli, che avevano proprio nel suo ministero il principale acquirente; Treccani parla senza mezzi termini di «interesse privato in atti pubblici»[^treccani]. Un altro esempio, tra i ras: Roberto Farinacci, avvocato con titoli professionali dubbi, otteneva parcelle a sei cifre per cause in cui il suo peso politico serviva ad aggiustare la sentenza[^filippi].
 
-Giacomo Matteotti fu assassinato nel 1924 mentre indagava su una tangente da 30 milioni di lire versata dalla compagnia petrolifera americana Sinclair Oil per ottenere concessioni di trivellazione in Italia e nelle colonie — una tangente che, secondo la ricostruzione dello storico Mauro Canali, coinvolgeva anche Arnaldo Mussolini, fratello del duce[^canali]. È il punto in cui la questione dell'onestà del regime e quella della sua violenza smettono di essere due discorsi separati.
+Dopo la guerra fu introdotto il reato di «profitti di regime», e alcuni furono condannati; ma i patrimoni non sempre furono recuperati e con la svolta politica del 1947 tutto si fermò[^palla].
 
-## L'oro in fuga
+## Il caso Matteotti
 
-Il 27 aprile 1945, quando fu catturato vicino a Dongo, il convoglio di gerarchi in fuga verso la Svizzera trasportava un tesoro imponente: circa 66 chili d'oro, 1.150 sterline d'oro, 147mila franchi svizzeri, 16 milioni di franchi francesi, diecimila peseta, oltre a somme personali dei singoli ministri[^meer]. Una parte, circa 35 chili d'oro recuperati dal fiume Mera dove i tedeschi l'avevano nascosto, era davvero composta dalle fedi nuziali della raccolta «Oro alla patria» del dicembre 1935 — mescolate, secondo le ricostruzioni, a oro sottratto agli ebrei deportati[^vanilla]. Ma il grosso del tesoro viaggiava nelle valigie dei ministri della Repubblica Sociale, non in mano a Mussolini: nella sua borsa personale furono trovati assegni per 1,7 milioni di lire e 160 sterline d'oro[^meer]. Fu fucilato il giorno dopo, il 28 aprile, senza mai lasciare l'Italia. L'inventario originale del tesoro sparì subito dopo il sequestro: che fine abbia fatto il resto resta, ancora oggi, un mistero irrisolto[^vanilla].
+Giacomo Matteotti fu ucciso il 10 giugno 1924, il giorno prima della riapertura della Camera. Stava preparando una denuncia sulla convenzione con la compagnia petrolifera americana Sinclair Oil, che dava l'esclusiva delle ricerche in tutta la Sicilia e in parte dell'Italia settentrionale, firmata il 29 aprile e approvata con decreto il 4 maggio[^canali].
 
-## Perché sembrava efficiente
+Nel luglio 1924 un giornale laburista inglese, il «Daily Herald», scrisse che la Sinclair aveva versato 30 milioni di lire ad Arnaldo Mussolini, fratello del duce, e ad altri uomini politici. Lo storico Mauro Canali riporta la notizia avvertendo che non se ne conoscono le fonti, e considera la denuncia sulla Sinclair la chiave più probabile del delitto, insieme al movente politico[^canali].
 
-Un sistema che ha il monopolio dell'informazione può dichiarare i propri risultati senza contraddittorio. È lo stesso meccanismo dei treni in orario, applicato all'integrità morale.
+## L'oro di Dongo
+
+Il 24 aprile 1945 il ministro delle Finanze della Repubblica sociale firmò un mandato di pagamento da un miliardo di lire, versato dalla Banca d'Italia al Partito fascista repubblicano[^meer]. Il 27 aprile i partigiani fermarono a Dongo, sul lago di Como, la colonna in fuga con Mussolini e i gerarchi: avevano con sé circa 66 chili d'oro, 1.150 sterline d'oro, 147.000 franchi svizzeri, 16 milioni di franchi francesi e diecimila pesetas. Alcuni ministri viaggiavano con somme personali: 18 milioni di lire il ministro dell'Interno Zerbino, 15 il ministro della Cultura popolare Mezzasoma[^meer].
+
+Il giorno dopo un pescatore trovò nel fiume Mera, dove i tedeschi della colonna l'avevano gettato, circa 35 chili di fedi nuziali d'oro della raccolta «Oro alla patria» del 1935. Consegnate ai partigiani, se ne persero le tracce, e sparì anche l'inventario del tesoro[^vanilla].
+
+## Perché sembrava onesto
+
+Un regime che controlla l'informazione può dichiarare la propria integrità senza contraddittorio. È lo stesso meccanismo dei treni in orario.
 
 ## Fonti
 
-[^anpi]: ANPI, Patria Indipendente — [Il fascismo dalle mani sporche](https://www.patriaindipendente.it/interviste/il-fascismo-dalle-mani-sporche/)
-[^canali]: Il Mulino — [Mauro Canali, Il delitto Matteotti](https://www.mulino.it/isbn/9788815389305)
 [^geopop]: Geopop — [Molte delle presunte «cose buone» fatte durante il fascismo sono bufale](https://www.geopop.it/molte-delle-presunte-cose-buone-fatte-durante-il-fascismo-sono-bufale/)
-[^vanilla]: Vanilla Magazine — [L'oro di Dongo: il mistero del tesoro della RSI](https://www.vanillamagazine.it/l-oro-di-dongo-il-mistero-del-tesoro-della-rsi-e-le-lettere-fra-mussolini-e-churchill/)
+[^palla]: ANPI, Patria Indipendente — [Il fascismo dalle mani sporche](https://www.patriaindipendente.it/interviste/il-fascismo-dalle-mani-sporche/), intervista a Marco Palla su P. Giovannini e M. Palla (a cura di), *Il fascismo dalle mani sporche*, Laterza, 2019
+[^treccani]: Treccani, Dizionario Biografico — [Ciano, Costanzo](https://www.treccani.it/enciclopedia/costanzo-ciano_(Dizionario-Biografico)/)
+[^filippi]: Francesco Filippi — [*Mussolini ha fatto anche cose buone*](https://www.bollatiboringhieri.it/libri/francesco-filippi-mussolini-ha-fatto-anche-cose-buone-9788833932743/), Bollati Boringhieri, 2019, cap. «Il duce della legalità», che cita lo storico Paul Corner
+[^canali]: Mauro Canali — [*Il delitto Matteotti*](https://www.mulino.it/isbn/9788815389305), il Mulino, 2024, capp. «La questione petrolifera e la convenzione Sinclair» e «I dubbi sul movente»
 [^meer]: Meer — [L'oro di Dongo sequestrato a Mussolini](https://www.meer.com/it/88223-loro-di-dongo-sequestrato-a-mussolini)
+[^vanilla]: Vanilla Magazine — [L'oro di Dongo: il mistero del tesoro della RSI](https://www.vanillamagazine.it/l-oro-di-dongo-il-mistero-del-tesoro-della-rsi-e-le-lettere-fra-mussolini-e-churchill/)

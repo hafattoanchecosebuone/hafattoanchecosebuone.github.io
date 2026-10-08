@@ -5,8 +5,9 @@
       {{ with .Params.categoria }}<p class="scheda__etichetta">{{ . }}</p>{{ end }}
       <h1 class="scheda__mito">{{ with .Params.mito }}«{{ . }}»{{ else }}{{ $.Title }}{{ end }}</h1>
       {{ with .Params.verdetto }}
-      <p><span class="timbro{{ if eq . "parzialmente vero" }} timbro--parziale{{ end }}">{{ . }}</span></p>
+      <p><span class="timbro{{ if eq . "parzialmente vero" }} timbro--parziale{{ else if ne . "falso" }} timbro--neutro{{ end }}">{{ . }}</span></p>
       {{ end }}
+      {{ if eq .Section "bufale" }}<p class="scheda__revisione">Ultima revisione: <time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod | time.Format ":date_long" }}</time></p>{{ end }}
     </header>
 
     <div class="scheda__corpo">
