@@ -16,7 +16,7 @@ Oggi il prodotto pro capite italiano è circa il 93 per cento di quello francese
 
 ## Cosa successe ai salari
 
-Per difendere la lira, con la cosiddetta «quota 90» del 1927, il regime impose il taglio di quasi tutte le retribuzioni: salari e stipendi furono ridotti dal 10 al 20 per cento, mentre i prezzi al consumo non scesero altrettanto[^filippi]. Della rivalutazione si parla nella scheda sulla lira forte. I salari reali medi tornarono al livello del 1928 solo nel 1938: un decennio perduto per chi viveva del proprio lavoro[^filippi].
+Per difendere la lira, con la cosiddetta «quota 90» del 1927, il regime impose il taglio di quasi tutte le retribuzioni: salari e stipendi furono ridotti dal 10 al 20 per cento, mentre i prezzi al consumo non scesero altrettanto[^filippi]. Della rivalutazione si parla nella [scheda sulla lira forte](/bufale/lira-forte/). I salari reali medi tornarono al livello del 1928 solo nel 1938: un decennio perduto per chi viveva del proprio lavoro[^filippi].
 
 Il calo si vide anche a tavola: secondo gli storici dell'economia Maria Sorrentino e Giovanni Vecchi, le politiche autarchiche e del cambio sono legate a una riduzione delle calorie disponibili in media per ogni italiano[^filippi].
 

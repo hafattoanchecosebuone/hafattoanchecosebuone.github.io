@@ -26,7 +26,7 @@ Secondo lo storico Francesco Filippi le leggi del 1938 non sono una copia di que
 
 ## Il razzismo come programma
 
-Le norme del 1938 non furono le uniche: nel 1939 la riforma delle assicurazioni sociali escluse esplicitamente i «cittadini italiani di razza non ariana» dagli assegni per matrimonio e nascita (se ne parla nella scheda sulle pensioni). Più che un cedimento tardivo, una linea coerente.
+Le norme del 1938 non furono le uniche: nel 1939 la riforma delle assicurazioni sociali escluse esplicitamente i «cittadini italiani di razza non ariana» dagli assegni per matrimonio e nascita (se ne parla nella [scheda sulle pensioni](/bufale/pensioni/)). Più che un cedimento tardivo, una linea coerente.
 
 ## Fonti
 
